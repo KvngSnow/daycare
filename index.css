@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Itim&display=swap');
+
+*{
+    font-family: "Itim", sans-serif;
+}
+/* navigation bar syling starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 60px
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 50px;
+    color: #232323;
+    font-weight: 400;
+}
+
+select{
+    border: none;
+    outline: none;
+    font-size: 16px;
+   width: 110px;
+   color: #232323;
+   font-weight: 400;
+}
+
+.join-btn, .contact-btn:hover{
+    outline: none;
+    border: none;
+    width: 162px;
+    height: 42px;
+    background: linear-gradient(to right, #007716, #FFFA00);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contact-btn, .join-btn:hover{
+    outline: none;
+    background: #FFFFFF;
+    width: 162px;
+    height: 42px;
+    cursor: pointer;
+    border: 2px solid  #007716; 
+    border-radius: 50px;
+    font-size: 18px;
+    color: #007716;
+}
+
+.contact-btn, .join-btn{
+    margin-top: -10px;
+}
+/* navigation bar styling ends  */
+
