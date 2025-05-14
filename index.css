@@ -3,6 +3,9 @@
 *{
     font-family: "Itim", sans-serif;
 }
+body{
+    margin: 0;
+}
 /* navigation bar syling starts */
 nav{
     display: flex;
@@ -44,7 +47,7 @@ select{
     cursor: pointer;
 }
 
-.contact-btn, .join-btn:hover{
+.contact-btn, .join-btn:hover, .textndbtn button:hover{
     outline: none;
     background: #FFFFFF;
     width: 162px;
@@ -60,4 +63,59 @@ select{
     margin-top: -10px;
 }
 /* navigation bar styling ends  */
+
+.content{
+    background: url(./images/Group\ 20657.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 864px;
+    position: relative;
+    margin-left: 0px;
+    }
+
+    .union{
+        position: absolute;
+        left: 360px;
+        bottom: 100px;
+    }
+
+    .textndbtn{
+        text-align: center;
+        position: absolute;
+        left: 400px;
+        top: 300px;
+    }
+    .textndbtn button{
+        outline: none;
+        border: none;
+        width: 205px;
+        height: 49px;
+        background: linear-gradient(to right, #007716, #FFFA00);
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 50px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .textndbtn button:hover{
+     width: 205px;
+     height: 49px;   
+    }
+    .textndbtn p{
+        font-size: 32px;
+        color: #232323;
+        font-weight: 400;
+    }
+    .textndbtn h1{
+        font-size: 70px;
+        color: #007716;
+        font-weight: 700;
+        letter-spacing: 10%;
+        margin-top: -30px;
+        margin-bottom: -20px;
+        line-height: 70px;
+    }
+    
 
