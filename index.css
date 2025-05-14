@@ -34,7 +34,7 @@ select{
    font-weight: 400;
 }
 
-.join-btn, .contact-btn:hover{
+.join-btn, .contact-btn:hover, .textbtn, .explore button{
     outline: none;
     border: none;
     width: 162px;
@@ -47,7 +47,7 @@ select{
     cursor: pointer;
 }
 
-.contact-btn, .join-btn:hover, .textndbtn button:hover{
+.contact-btn, .join-btn:hover, .textbtn:hover, .explore button:hover{
     outline: none;
     background: #FFFFFF;
     width: 162px;
@@ -64,58 +64,177 @@ select{
 }
 /* navigation bar styling ends  */
 
+/* hero section styling starts */
 .content{
-    background: url(./images/Group\ 20657.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 864px;
     position: relative;
-    margin-left: 0px;
+}
+.contentimg img{
+    width: 100%;
+ 
+}
+
+.contentimg2 img{
+    margin-top: -10px;
+    width: 100%;
+}
+
+.contenttxt{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+}
+
+.textbtn, .textbtn:hover{
+    width: 205px;
+    height: 49px;
+    font-size: 24px;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 450px;
+    left: 559px;
+    padding: 10px 40px;
+}
+/* hero section styling ends  */
+
+/* offer special care section styling starts */
+.explore{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.text1{
+    color: #007716;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.explore h3{
+    color: #0D093B;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -10px;
+    margin-top: -25px;
+}
+
+.text2{
+    color: #232323;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+.explore button, .explore button:hover{
+    font-size: 24px;
+    width: 214px;
+    height: 49px;
+}
+
+.txtndbtn{
+    padding-top: 100px;
+}
+/* offer special care styling ends  */
+
+.childcare{
+    width: 100%;
+    height: 1800px;
+    background-color: #F9F7F8;
+}
+.base img{
+    width: 100%;
+}
+
+.aoctxt{
+    text-align: center;
+}
+
+.aoctxt small {
+color: #007716;
+font-size: 24px;
+font-weight: 700;
+}
+
+.aoctxt p{
+    color: #232323;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.box, .box1, .box2, .box3, .box4{
+    width: 378px;
+    height: 450px;
+    background-color: #E0F5FF;
+    border-radius: 40px;
+    position: relative;
+}
+.box button, .box1 button, .box2 button, .box3 button, .box4 button{
+    outline: none;
+    background: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: #007716;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 160px;
+}
+
+.boxcontainer, .boxcontainer2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.box h3, .box1 h3, .box2 h3, .box3 h3, .box4 h3{
+    color: #0D093B;
+    font-size: 24px;
+}
+.box p, .box1 p, .box2 p, .box3 p, .box4 p{
+    color: #232323;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.boximg{
+    position: absolute;
+    top: -140px;
+    left: 40px;
+}
+.boxtxt{
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.box1{
+    background-color: #DEDBFF;
     }
 
-    .union{
-        position: absolute;
-        left: 360px;
-        bottom: 100px;
+ .box1 p{
+        margin-top: 50px;
     }
+.box1 button{
+    margin-top: 20px;
+}
 
-    .textndbtn{
-        text-align: center;
-        position: absolute;
-        left: 400px;
-        top: 300px;
-    }
-    .textndbtn button{
-        outline: none;
-        border: none;
-        width: 205px;
-        height: 49px;
-        background: linear-gradient(to right, #007716, #FFFA00);
-        font-size: 18px;
-        font-weight: 400;
-        border-radius: 50px;
-        color: #FFFFFF;
-        cursor: pointer;
-    }
+.box2 {
+    background-color: #F1FFB5;
+}
+.box2 button{
+    margin-top: 10px;
+}
 
-    .textndbtn button:hover{
-     width: 205px;
-     height: 49px;   
-    }
-    .textndbtn p{
-        font-size: 32px;
-        color: #232323;
-        font-weight: 400;
-    }
-    .textndbtn h1{
-        font-size: 70px;
-        color: #007716;
-        font-weight: 700;
-        letter-spacing: 10%;
-        margin-top: -30px;
-        margin-bottom: -20px;
-        line-height: 70px;
-    }
-    
+.box3{
+    background-color: #B6E5FF;
+}
+.box3 button{
+    margin-top: 70px
+}
 
+.box4{
+    background-color: #B0FFAE;
+}
+.box4 button{
+    margin-top: 30px;
+}
