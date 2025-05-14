@@ -134,6 +134,7 @@ select{
 }
 /* offer special care styling ends  */
 
+/* Area of care styling starts */
 .childcare{
     width: 100%;
     height: 1800px;
@@ -238,3 +239,4 @@ font-weight: 700;
 .box4 button{
     margin-top: 30px;
 }
+/* Area of care styling ends  */
