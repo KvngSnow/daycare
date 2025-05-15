@@ -240,3 +240,73 @@ font-weight: 700;
     margin-top: 30px;
 }
 /* Area of care styling ends  */
+
+/* picture section styling starts */
+.pictxt{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pictxt h3{
+    color: #007716;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pictxt p {
+    font-weight: 600;
+    color: #232323;
+    font-size: 44px;
+    margin-top: -20px;
+}
+
+.envi{
+    margin-top: 80px
+}
+.envimgs{
+    width: 490px;
+    height: 300px;
+    /* border-right: 4px solid #0D093B;
+    border-bottom: 8px solid #0D093B; */
+}
+.envimgs img{
+    width: 100%;
+    height: 100%;
+}
+
+.envhouse{
+    display: flex;
+}
+/* picture section styling ends  */
+
+/* group image styling starts  */
+.group10{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 110px;
+}
+
+.grouptxt{
+    margin-top: 150px;
+}
+
+.grouptxt h2{
+    color: #007716;
+    font-size: 24px;
+    font-weight: 600;
+}
+.grouptxt h3 {
+    color: #0D093B;
+    font-size: 48px;
+    letter-spacing: 1px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+}
+.grouptxt p {
+    color: #232323;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* group image styling ends  */
