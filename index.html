@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- navigation bar -->
-    <nav>
+     <!-- navigation bar -->
+     <nav>
         <div>
             <img src="/images/Frame 149.png" alt="">
         </div>
@@ -17,7 +17,7 @@
                 <li>Home</li>
                 <li>Why us</li>
                 <li>
-                    <select>
+                    <select class="select1">
                         <option value="0-4">Area of care</option>
                         <option value="Area of care">Free Tax-Funded Childcare</option>
                         <option value="Area of care">Nanny Services on Request</option>
@@ -29,7 +29,7 @@
                 </li>
                 <li>Our Space</li>
                 <li>
-                    <select style="width: 60px;">
+                    <select class="select1" style="width: 60px;">
                         <option value="More">More</option>
                         <option value="Moree">Moree</option>
                         <option value="Moreee">Moreee</option>
@@ -199,7 +199,48 @@
        </section>
        <!-- group image section ends -->
 
-
-       <section></section>
-</body>
+       
+       <section class="formsec">
+        <div class="imgimg">
+            <img src="./images/Icon.png" alt="">
+            <p class="pf1">Contact Us</p>
+            <p class="pf2">You've Got Questions  <br>Feel Free to Ask</p>
+        </div>
+        <form>
+            <section class="firstinsec">
+                <div>
+                    <p>First Name</p>
+                    <input type="text" placeholder="Enter First Name">
+                </div>
+                <div>
+                    <p>Last Name</p>
+                    <input type="text" placeholder="Enter Last Name">
+                </div>
+            </section>
+            <section class="secondinsec">
+                <div>
+                    <p>Email</p>
+                    <input type="email" placeholder="Enter your Email" class="inemail">
+                </div>
+                <div>
+                    <p>Phone Number</p>
+                    <select class="select2">
+                        <option value="+234">+234</option>
+                        <option value="+44">+44</option>
+                        <option value="+1">+1</option>
+                    </select>
+                    <input type="number" placeholder="Enter Phone Number" class="innumber">
+                </div>
+            </section>
+            <p>Message</p>
+            <input type="text" placeholder="Enter your Message" class="inmess">
+            <div class="checkndbtn">
+                <input type="checkbox" class="checkbox">
+                <span class="span1">I agree with Terms of Use and Privacy Policy</span>
+                <button>Send</button>
+            </div>
+            
+        </form>
+       </section>
+</body>                  
 </html>

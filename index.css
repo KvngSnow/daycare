@@ -25,7 +25,7 @@ nav ul li {
     font-weight: 400;
 }
 
-select{
+.select1 {
     border: none;
     outline: none;
     font-size: 16px;
@@ -310,3 +310,116 @@ font-weight: 700;
     letter-spacing: 1px;
 }
 /* group image styling ends  */
+
+
+.formsec{
+    background-color: #F9F7F8;
+    width: 100%;
+    height: 707px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 150px;
+}
+
+.pf1{
+    color: #007716;
+    font-size: 24px;
+}
+
+.pf2{
+    color: #0D093B;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+form p span {
+    color: #232323;
+    font-size: 18px;
+}
+
+form{
+    border-left: 2px solid #0D093B;
+    height: 570px;
+    padding-left: 24px;
+}
+
+.firstinsec input, .inemail, .innumber, .inmess{
+    height: 59px;
+    width: 367px;
+    font-size: 18px;
+    color: #232323;
+    border-radius: 6px;
+    padding-left: 16px;
+    border: 1px solid #0D093B;
+    background-color: #FFFFFF;
+}
+
+.select2{
+   width: 78px;
+   height: 61px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #232323;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid #0D093B;
+    margin-right: 5px;
+}
+
+.innumber{
+    width: 277px;
+}
+
+.inmess{
+    width: 800px;
+    height: 163px;
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid #0D093B;
+    border-color: #FFFFFF;
+}
+
+form button{
+    outline: none;
+    border: none;
+    width: 132px;
+    height: 59px;
+    background: linear-gradient(to right, #007716, #FFFA00);
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 50px;
+    color: #FFFFFF;
+    cursor: pointer; 
+    margin-left: 350px;
+}
+
+form button:hover{
+    outline: none;
+    background: #FFFFFF;
+    width: 132px;
+    height: 59px;
+    cursor: pointer;
+    border: 2px solid  #007716; 
+    border-radius: 50px;
+    font-size: 24px;
+    color: #007716;
+}
+
+.firstinsec, .secondinsec{
+    display: flex;
+    gap: 50px;
+}
+
+.checkndbtn{
+    margin-top: 40px;
+}
+.span1{
+    margin-top: -10px;
+   
+    
+ }
