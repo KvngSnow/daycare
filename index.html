@@ -5,242 +5,473 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-     <!-- navigation bar -->
-     <nav>
-        <div>
-            <img src="/images/Frame 149.png" alt="">
-        </div>
-        <div>
-            <ul>
-                <li>Home</li>
-                <li>Why us</li>
-                <li>
-                    <select class="select1">
-                        <option value="0-4">Area of care</option>
-                        <option value="Area of care">Free Tax-Funded Childcare</option>
-                        <option value="Area of care">Nanny Services on Request</option>
-                        <option value="Area of care">Helpful Articles and Advice</option>
-                        <option value="Area of care">Childcare Services</option>
-                        <option value="Area of care">Daycare Services</option>
-                        <option value="Area of care">Daycare Services</option>
-                    </select>
-                </li>
-                <li>Our Space</li>
-                <li>
-                    <select class="select1" style="width: 60px;">
-                        <option value="More">More</option>
-                        <option value="Moree">Moree</option>
-                        <option value="Moreee">Moreee</option>
-                    </select>
-                </li>
-                <li>
-                    <button class="contact-btn">Contact Us</button>
-                </li>
-                <li>
-                    <button class="join-btn">Join Now</button>
-                </li>
+    <!-- navigation bar section starts -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/Frame 149.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-5">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">WhyUs</a>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Area of care
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">OurSpace</a>
+              </li>
+              <li class="nav-item dropdown me-5">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <form class="container-fluid justify-content-start">
+                <button class="btn btn-outline-success me-5 rounded-pill btn1" type="button">Contact Us</button>
+                <button class="btn btn-outlin rounded-pill btn2" type="button">Join Us</button>
+              </form>
             </ul>
+          </div>
         </div>
-    </nav>
-    <!-- end of navigation bar -->
-     
-     <!-- hero section  -->
-     <section class="content">
-        <div class="contentimg">
-            <img src="./images/Group 6.png" alt="">
+      </nav>
+    <!-- end of navigation bar section  -->
+
+    <!-- hero section starts  -->
+     <main>
+        <div class="img1">
+            <img src="./images/Union2.svg" alt="">
         </div>
-        <div class="contentimg2">
-            <img src="./images/Group 7.png" alt="">
-        </div>
-        <div>
-            <img class="contenttxt" src="./images/Group 9.png" alt="">
-        </div>
-        <button class="textbtn">Book A Visit</button>
+        <section class="text-center htext">
+            <p class="fs-3 mb-1">Welcome To</p>
+            <h1 class="fw-bold mt-1">Marvellous Kids <br>Childcare & Nanny <br>Services</h1>
+            <p class="fs-3">Caring for Your Children, Supporting <br>Your Family.</p>
+            <button class="btn btn-outlin rounded-pill btn2 fs-5" type="button">Book A Visit</button>
+        </section>
+     </main>
+     <section class="bgimg">
+        <!-- <img src="./images/Group 7.png" alt="" style="width: 100%;"> -->
      </section>
-     <!-- hero section ends -->
+     <!-- end of hero section  -->
 
-      <!-- offer speacial care section  -->
-     <section class="explore">
-        <div class="txtndbtn">
-            <p class="text1">Marvellous Kids Childcare,</p>
-            <h3>Offer Special Care For <br>Your Children </h3>
-            <p class="text2">We provide quality care for children aged 0-16 years, <br>helping them grow in a safe and nurturing <br>environment. Whether you need full-time childcare <br>or a nanny to support your family, we are here for <br>you. We also offer free tax-funded childcare for <br>eligible 2, 3, and 4-year-olds.</p>
-            <button>Explore More</button>
-         </div>
-         <div>
-            <img src="./images/Group 4.png" alt="">
-         </div>
+     <!-- kids and image section -->
+     <section class="container-lg mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 pt-lg-5">
+                <p class="h4" style="color: #007716;">Marvellous Kids Childcare,</p>
+                <p class="h1 fw-bold" style="color: #0D093B;">Offer Special Care For <br>Your Children </p>
+                <p class="h4 mt-4" style="color: #232323;">We provide quality care for children aged 0-16 years, helping them grow in a safe and nurturing environment. Whether you need full-time childcare or a nanny to support your family, we are here for you. We also offer free tax-funded childcare for eligible 2, 3, and 4-year-olds.</p>
+                <button class="btn btn-outlin rounded-pill btn2 fs-5 mt-3" type="button" style="width: 214px;">Explore More</button>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <img src="./images/Group 4.png" alt="" class="w-100">
+            </div>
+        </div>
      </section>
-     <!-- offer special care section ends  -->
+     <!-- end of kids and image section  -->
 
-     <!-- Area of care starts -->
-      <section class="childcare">
-        <div class="base">
-            <img src="./images/Unionbase.png" alt="">
+     <!-- card section starts  -->
+     <section class="services">
+      <div>
+        <img src="./images/3.png" alt="" style="width: 100%;">
+      </div>
+      <div class="text-center">
+        <p class="h4 fw-bold" style="color: #007716;">Area Of Care</p>
+        <p class="h1 fw-bold">Providing Good Qualities <br>For Your Loving Kids</p>
+      </div>
+      <div class="container-lg" style="margin-top: 120px;">
+        <div class="row g-5">
+          <div class="col-sm-12 col-md-12 col-lg-4 position-relative">
+            <div class="w-100 rounded-5 h-auto" style="background-color: #E0F5FF;">
+              <div class="position-absolute top-0 start-50 translate-middle">
+                <img src="./images/Rectangle 2.png" alt="">
+              </div>
+              <div class="px-5" style="padding-top: 120px;">
+                <p class="h4 fw-bold" style="color: #0D093B;">Free Tax-Funded Childcare for 2, 3, and 4-Year-Olds</p>
+                <p class="h5 pt-3" style="color: #232323;">At Marvellous Kids Childcare, we offer free tax-funded childcare for eligible 2, 3, and 4-year-olds. This allows parents to take advantage of government support while ensuring their child receives high-quality care and early learning opportunities. Contact us to find out if you qualify and how to apply.</p>
+              <div class="text-end mt-4 pb-5">
+                <a href="#" class="read fw-bold ">Read More</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 position-relative">
+            <div class="w-100 rounded-5 h-auto" style="background-color: #DEDBFF;">
+              <div class="position-absolute top-0 start-50 translate-middle">
+                <img src="./images/image 3.png" alt="">
+              </div>
+              <div class="px-5" style="padding-top: 120px;">
+                <p class="h4 fw-bold" style="color: #0D093B;">Childcare Services <br>(Ages 0-16)</p>
+                <p class="h5 pt-3" style="color: #232323;">
+                  We offer childcare services for children from birth to 16 years old, ensuring that each age group has the care and attention they need. Our trained staff provide a variety of activities aimed at helping children develop their skills, creativity, and confidence.</p>
+              <div class="text-end mt-4 pb-5">
+                <a href="#" class="read fw-bold ">Read More</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-4 position-relative">
+            <div class="w-100 rounded-5 h-auto" style="background-color: #F1FFB5;">
+              <div class="position-absolute top-0 start-50 translate-middle">
+                <img src="./images/Rectangle 21.png" alt="">
+              </div>
+              <div class="px-5" style="padding-top: 120px;">
+                <p class="h4 fw-bold" style="color: #0D093B;">Nanny Services on <br>Request</p>
+                <p class="h5 " style="color: #232323;">
+                  We understand that each family has unique needs, so we offer nanny services upon request. Whether you need a live-in nanny or a nanny to stay with your children until you return from work, we provide reliable and loving caregivers. Our nannies are experienced, vetted, and available for both short-term and long-term care.</p>
+              <div class="text-end mt-4 pb-5">
+                <a href="#" class="read fw-bold ">Read More</a>
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="aoctxt">
-            <small>Area of care</small>
-            <p>Providing Good Qualities <br>For Your Loving Kids</p>
-        </div>
-       <div class="boxcontainer">
-        <div class="box">
-            <div class="boximg"><img src="./images/Rectangle 2.png" alt=""></div>
-            <div class="boxtxt">
-                <h3>Free Tax-Funded <br>Childcare for 2, 3, and <br>4-Year-Olds</h3>
-                <p>At Marvellous Kids Childcare, we <br>offer free tax-funded childcare for <br>eligible 2, 3, and 4-year-olds. This <br>allows parents to take advantage of <br>government support while ensuring <br>their child receives high-quality care <br>and early learning opportunities. <br>Contact us to find out if you qualify <br>and how to apply.</p>
-                <button>Read more</button>
+        <div class="row g-5" style="margin-top: 150px;">
+          <div class="col-sm-12 col-md-12 col-lg-4 position-relative offset-lg-2">
+            <div class="w-100 rounded-5 h-auto" style="background-color: #B6E5FF;">
+              <div class="position-absolute top-0 start-50 translate-middle">
+                <img src="./images/4.png" alt="">
+              </div>
+              <div class="px-5" style="padding-top: 120px;">
+                <p class="h4 fw-bold" style="color: #0D093B;">Helpful Articles and <br>Advice</p>
+                <p class="h5 pt-4" style="color: #232323;">
+                  We share tips and resources for parents looking to balance work, family, and their child’s development. From managing childcare schedules to activities you can try at home, our blog is here to help.
+                </p>
+              <div class="text-end mt-4 pb-5">
+                <a href="#" class="read fw-bold ">Read More</a>
+              </div>
+              </div>
             </div>
         </div>
-        <div class="box1">
-            <div class="boximg"><img src="./images/image.png" alt=""></div>
-            <div class="boxtxt">
-                <h3>Childcare Services <br>(Ages 0-16)</h3>
-                <p> We offer childcare services for <br>children from birth to 16 years old, <br>ensuring that each age group has the <br>care and attention they need. Our <br>trained staff provide a variety of <br>activities aimed at helping children <br>develop their skills, creativity, and <br>confidence.</p>
-                <button>Read more</button>
+        <div class="col-sm-12 col-md-12 col-lg-4 position-relative">
+          <div class="w-100 rounded-5 h-auto" style=" background-color: #F1FFB5;">
+            <div class="position-absolute top-0 start-50 translate-middle">
+              <img src="./images/5.png" alt="">
             </div>
-        </div>
-        <div class="box2">
-            <div class="boximg"><img src="./images/rect 3.png" alt=""></div>
-            <div class="boxtxt">
-                <h3>Nanny Services on <br>Request</h3>
-                <p>We understand that each family has <br>unique needs, so we offer nanny <br>services upon request. Whether you <br>need a live-in nanny or a nanny to <br>stay with your children until you <br>return from work, we provide <br>reliable and loving caregivers. Our <br>nannies are experienced, vetted, and <br>available for both short-term and <br>long-term care.</p>
-                <button>Read more</button>
+            <div class="px-5" style="padding-top: 120px;">
+              <p class="h4 fw-bold" style="color: #0D093B;">Free Tax-Funded Childcare Information</p>
+              <p class="h5 " style="color: #232323;">
+                We offer guidance on applying for free childcare for your 2, 3, and 4-year-olds. Parents may be eligible for government-funded childcare, which can significantly reduce the cost of early education. To learn more about eligibility, visit the [Government Childcare Page] (link) or contact us for assistance.</p>
+            <div class="text-end mt-4 pb-5">
+              <a href="#" class="read fw-bold ">Read More</a>
             </div>
-        </div>
-       </div>
-       <div class="boxcontainer2">
-        <div class="box3">
-            <div class="boximg"><img src="./images/Rectangle 3.png" alt=""></div>
-            <div class="boxtxt">
-                <h3>Helpful Articles and <br>Advice</h3>
-                <p>We share tips and resources for <br>parents looking to balance work, <br>family, and their child’s <br>development. From managing <br>childcare schedules to activities you <br>can try at home, our blog is here to <br>help.</p>
-                <button>Read more</button>
             </div>
-        </div>  <div class="box4">
-            <div class="boximg"><img src="./images/Rectangle 4.png" alt=""></div>
-            <div class="boxtxt">
-                <h3>Free Tax-Funded <br>Childcare Information</h3>
-                <p>We offer guidance on applying for <br>free childcare for your 2, 3, and 4 <br>year-olds. Parents may be eligible <br>for government-funded childcare, <br>which can significantly reduce the <br>cost of early education. To learn <br>more about eligibility, visit the <br>[Government Childcare Page] (link) <br>or contact us for assistance.</p>
-                <button>Read more</button>
-            </div>
-        </div>
-         </div>
-      </section>
-      <!-- Area of care ends  -->
+          </div>
+      </div>
+     </section>
+     <!-- end of cards section  -->
 
-      <!-- pictures section starts -->
-       <section>
-        <div class="pictxt">
-            <h3>Our Space</h3>
-            <p>Explore Our Environment </p>
+     <!-- pictures display section  -->
+   <section>
+    <div class="text-center my-5">
+      <p class="h4 fw-bold" style="color: #007716;">Our Space</p>
+      <p class="h1 fw-bold">Explore Our Environment </p>
+    </div>
+    <section class="container-fluid display">
+      <div class="row g-3">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div>
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
         </div>
-       <div class="envi">
-        <!-- top pictures section  -->
-         <div class="envhouse">
-            <div class="envimgs">
-                <img src="./images/environment 1.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 2.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 3.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 4.png" alt="">
-            </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100">
+            <img src="./images/img 1.png" alt="" style="width: 100%;" >
+          </div>
         </div>
-        <!-- middle pictures section  -->
-        <div class="envhouse">
-            <div class="envimgs">
-                <img src="./images/environment 5.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 6.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 7.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 8.png" alt="">
-            </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100">
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
         </div>
-        <!-- bottom picture section  -->
-        <div class="envhouse">
-            <div class="envimgs">
-                <img src="./images/environment 9.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 10.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 11.png" alt="">
-            </div>
-            <div class="envimgs">
-                <img src="./images/environment 12.png" alt="">
-            </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
         </div>
-       </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="w-100"> 
+            <img src="./images/img 1.png" alt="" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+   </section>
+      <!-- end of picture section  -->
+
+      <!-- section before the form starts  -->
+       <section class="container-lg my-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <img src="./images/Group 10.png" alt="" class="w-100">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+           <div class="mt-5">
+            <p class="h4 fw-bold" style="color: #007716;">Marvellous Kids Childcare,</p>
+            <p class="h1 fw-bold" style="color: #0D093B;">Offer Special Care For <br>Your Children </p>
+            <p class="h4 mt-4" style="color: #232323;">We provide quality care for children aged 0-16 years, helping them grow in a safe and nurturing environment. Whether you need full-time childcare or a nanny to support your family, we are here for you. We also offer free tax-funded childcare for eligible 2, 3, and 4-year-olds.</p>
+           </div>
+          </div>
+        </div>
        </section>
-       <!-- picture section ends  -->
+       <!-- section before the form ends  -->
 
-       <!-- group image section  -->
-       <section class="group10">
-        <div>
-            <img src="./images/Group 10.png" alt="">
-        </div>
-        <div class="grouptxt">
-            <h2>Marvellous Kids Childcare,</h2>
-            <h3>Offer Special Care For <br>Your Children </h3>
-            <p>We provide quality care for children aged 0-16 years, <br>helping them grow in a safe and nurturing <br>environment. Whether you need full-time childcare <br>or a nanny to support your family, we are here for <br>you. We also offer free tax-funded childcare for <br>eligible 2, 3, and 4-year-olds.</p>
-        </div>
-       </section>
-       <!-- group image section ends -->
-
-       
-       <section class="formsec">
-        <div class="imgimg">
-            <img src="./images/Icon.png" alt="">
-            <p class="pf1">Contact Us</p>
-            <p class="pf2">You've Got Questions  <br>Feel Free to Ask</p>
-        </div>
-        <form>
-            <section class="firstinsec">
-                <div>
-                    <p>First Name</p>
-                    <input type="text" placeholder="Enter First Name">
+       <!-- form section starts  -->
+        <section class="container-fluid mt-5">
+          <form action="">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-4 ps-lg-5 pt-5 forrm">
+                <img src="./images/Group 260.png" alt="">
+                <p class="fs-4 mt-4" style="color: #007716;">Contact Us</p>
+                <p class="fs-1 fw-bold" style="color: #0D093B;">You’ve Got Questions  <br>Feel Free to Ask</p>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-8 ps-lg-5 ">
+               <div class="row">
+                <div class="w-50 sm-12">
+                  <p>First Name</p>
+                  <input type="text" class="form-control" placeholder="Enter First name" aria-label="First name">
                 </div>
-                <div>
-                    <p>Last Name</p>
-                    <input type="text" placeholder="Enter Last Name">
+                <div class="w-50">
+                  <p>Last Name</p>
+                  <input type="text" class="form-control" placeholder="Enter Last name" aria-label="Last name">
                 </div>
-            </section>
-            <section class="secondinsec">
-                <div>
-                    <p>Email</p>
-                    <input type="email" placeholder="Enter your Email" class="inemail">
+               </div>
+               <div class="row mt-4">
+                <div class="w-50 sm-12">
+                  <p>Email</p>
+                  <input type="email" class="form-control" placeholder="Enter your Email" aria-label="Email">
                 </div>
-                <div>
-                    <p>Phone Number</p>
-                    <select class="select2">
-                        <option value="+234">+234</option>
-                        <option value="+44">+44</option>
-                        <option value="+1">+1</option>
-                    </select>
-                    <input type="number" placeholder="Enter Phone Number" class="innumber">
+                <div class="w-50">
+                  <p>Phone Number</p>
+                  <div class="input-group mb-3">
+                    <button class="btn  dropdown-toggle me-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Enter Phone Number">
+                  </div>
                 </div>
-            </section>
-            <p>Message</p>
-            <input type="text" placeholder="Enter your Message" class="inmess">
-            <div class="checkndbtn">
-                <input type="checkbox" class="checkbox">
-                <span class="span1">I agree with Terms of Use and Privacy Policy</span>
-                <button>Send</button>
+               </div>
+               <div class="mt-4">
+                <label for="validationTextarea" class="form-label">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Enter your Message" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter a message in the textarea.
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                  <div class="form-check">
+                    <input class="form-check-input me-5" type="checkbox" value="" id="checkDefault" style="height: 24px; width: 24px; border-radius: 4px;">
+                    <label class="form-check-label mt-1" for="checkDefault">
+                      I agree with Terms of Use and Privacy Policy
+                    </label> 
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-3 text-right">
+                  <button class="butt rounded-pill fs-4">Send</button>
+                </div>
+                
+              </div>
+              </div>
             </div>
-            
-        </form>
-       </section>
+          </form>
+        </section>
+        <!-- end of form section  -->
+
+        <!-- footer section starts  -->
+         <!-- Footer -->
+          
+<footer class="text-center text-lg-start text-muted">
+  
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="./images/Frame 149.png" alt="">
+          </h6>
+          <p class="text-light">
+            Locations: <span style="color: #B4B3B4;"> 36, Lensbury way Abbey Wood, London, SE29SY.</span>
+          </p>
+          <p class="text-light">
+            Opening & Closing  Hours: <br><span style="color: #B4B3B4;">Monday - Friday: 07:00 AM - 06:00 PM <br>Morning: 07:00 AM - 01:00 PM <br>Afternoon: 01:00 PM - 06:00 PM</span>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-light fw-bold mb-4">
+            Company
+          </h6>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Why us</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Area Of Care</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Nanny</a>
+          </p>
+          <p style="color: #B4B3B4;"> 
+            <a href="#!" class="text-reset">Our Environment</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Our Solutions</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-light fw-bold mb-4">
+            Our Services
+          </h6>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Childcare Services</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Nanny Service On Request</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Free Tax- Funded Childcare</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Parent Resources</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Helpful Articles & Advice</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-light fw-bold mb-4">More</h6>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">FAQ</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Contact Us</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Blog</a>
+          </p>
+          <p style="color: #B4B3B4;">
+            <a href="#!" class="text-reset">Help Center</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Section: Social media -->
+  <section class="container d-flex justify-content-center justify-content-lg-between p-4 border-top">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span style="color: #B4B3B4;">@ 2024 Marvellous kids childcare. All rights reserved.</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <span class="me-4" style="color: #B4B3B4;">Terms</span>
+      <span class="me-4" style="color: #B4B3B4;">Privacy</span>
+      <span class="me-4" style="color: #B4B3B4;">Contact</span>
+      <a href="" class="me-4 text-reset">
+        <i class="fa-brands fa-youtube" style="color: #fff;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"  style="color: #ffffff;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"  style="color: #ffffff;"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+</footer>
+<!-- Footer -->
+         <!-- end of footer secton  -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>                  
 </html>

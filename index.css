@@ -6,420 +6,123 @@
 body{
     margin: 0;
 }
-/* navigation bar syling starts */
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 60px
-}
 
-nav ul {
-    display: flex;
-}
-nav ul li {
-    list-style: none;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 50px;
-    color: #232323;
-    font-weight: 400;
-}
-
-.select1 {
-    border: none;
-    outline: none;
-    font-size: 16px;
-   width: 110px;
-   color: #232323;
-   font-weight: 400;
-}
-
-.join-btn, .contact-btn:hover, .textbtn, .explore button{
-    outline: none;
-    border: none;
+.btn1, .btn2 {
     width: 162px;
-    height: 42px;
+    height: 48px;
+}
+
+.btn1{
+    outline: none;
+    background: #fff;
+    color: #007716;
+    border: 2px solid #007716;
+}
+
+.btn2{
+    outline: none;
+    border: none !important;
+    color: #fff !important;
     background: linear-gradient(to right, #007716, #FFFA00);
-    font-size: 18px;
-    font-weight: 400;
-    border-radius: 50px;
-    color: #FFFFFF;
-    cursor: pointer;
 }
 
-.contact-btn, .join-btn:hover, .textbtn:hover, .explore button:hover{
-    outline: none;
-    background: #FFFFFF;
-    width: 162px;
-    height: 42px;
-    cursor: pointer;
-    border: 2px solid  #007716; 
-    border-radius: 50px;
-    font-size: 18px;
+.htext h1{
+    font-size: 64px;
     color: #007716;
 }
 
-.contact-btn, .join-btn{
-    margin-top: -10px;
+.htext p{
+    color: #232323;
 }
-/* navigation bar styling ends  */
 
-/* hero section styling starts */
-.content{
+main{
+    background-image: url(./images/Group\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
     position: relative;
 }
-.contentimg img{
+
+.bgimg{
+    background-image: url(./images/Group\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
- 
-}
-
-.contentimg2 img{
-    margin-top: -10px;
-    width: 100%;
-}
-
-.contenttxt{
-    position: absolute;
-    top: 300px;
-    left: 350px;
-}
-
-.textbtn, .textbtn:hover{
-    width: 205px;
-    height: 49px;
-    font-size: 24px;
-    border-radius: 24px;
-    position: absolute;
-    bottom: 450px;
-    left: 559px;
-    padding: 10px 40px;
-}
-/* hero section styling ends  */
-
-/* offer special care section styling starts */
-.explore{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-}
-
-.text1{
-    color: #007716;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.explore h3{
-    color: #0D093B;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: -10px;
-    margin-top: -25px;
-}
-
-.text2{
-    color: #232323;
-    font-size: 24px;
-    letter-spacing: 1.5px;
-}
-
-.explore button, .explore button:hover{
-    font-size: 24px;
-    width: 214px;
-    height: 49px;
-}
-
-.txtndbtn{
-    padding-top: 100px;
-}
-/* offer special care styling ends  */
-
-/* Area of care styling starts */
-.childcare{
-    width: 100%;
-    height: 1800px;
-    background-color: #F9F7F8;
-}
-.base img{
-    width: 100%;
-}
-
-.aoctxt{
-    text-align: center;
-}
-
-.aoctxt small {
-color: #007716;
-font-size: 24px;
-font-weight: 700;
-}
-
-.aoctxt p{
-    color: #232323;
-    font-size: 44px;
-    font-weight: 700;
-    margin-top: -5px;
-}
-
-.box, .box1, .box2, .box3, .box4{
-    width: 378px;
-    height: 450px;
-    background-color: #E0F5FF;
-    border-radius: 40px;
-    position: relative;
-}
-.box button, .box1 button, .box2 button, .box3 button, .box4 button{
-    outline: none;
-    background: none;
-    border: none;
-    width: 150px;
-    height: 40px;
-    color: #007716;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 600;
-    margin-left: 160px;
-}
-
-.boxcontainer, .boxcontainer2 {
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
-
-.box h3, .box1 h3, .box2 h3, .box3 h3, .box4 h3{
-    color: #0D093B;
-    font-size: 24px;
-}
-.box p, .box1 p, .box2 p, .box3 p, .box4 p{
-    color: #232323;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.boximg{
-    position: absolute;
-    top: -140px;
-    left: 40px;
-}
-.boxtxt{
-    padding-top: 60px;
-    padding-left: 40px;
-    padding-right: 0px;
-}
-.box1{
-    background-color: #DEDBFF;
-    }
-
- .box1 p{
-        margin-top: 50px;
-    }
-.box1 button{
-    margin-top: 20px;
-}
-
-.box2 {
-    background-color: #F1FFB5;
-}
-.box2 button{
-    margin-top: 10px;
-}
-
-.box3{
-    background-color: #B6E5FF;
-}
-.box3 button{
-    margin-top: 70px
-}
-
-.box4{
-    background-color: #B0FFAE;
-}
-.box4 button{
-    margin-top: 30px;
-}
-/* Area of care styling ends  */
-
-/* picture section styling starts */
-.pictxt{
-    text-align: center;
-    margin-top: 60px;
-}
-
-.pictxt h3{
-    color: #007716;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.pictxt p {
-    font-weight: 600;
-    color: #232323;
-    font-size: 44px;
-    margin-top: -20px;
-}
-
-.envi{
-    margin-top: 80px
-}
-.envimgs{
-    width: 490px;
     height: 300px;
-    /* border-right: 4px solid #0D093B;
-    border-bottom: 8px solid #0D093B; */
 }
-.envimgs img{
+
+.img1{
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+
+.htext{
+    position: absolute;
+    top: 320px;
+    left: 350px;
+
+}
+
+.services{
+    height: auto;
     width: 100%;
-    height: 100%;
-}
-
-.envhouse{
-    display: flex;
-}
-/* picture section styling ends  */
-
-/* group image styling starts  */
-.group10{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 110px;
-}
-
-.grouptxt{
-    margin-top: 150px;
-}
-
-.grouptxt h2{
-    color: #007716;
-    font-size: 24px;
-    font-weight: 600;
-}
-.grouptxt h3 {
-    color: #0D093B;
-    font-size: 48px;
-    letter-spacing: 1px;
-    margin-top: -25px;
-    margin-bottom: -10px;
-}
-.grouptxt p {
-    color: #232323;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-/* group image styling ends  */
-
-
-.formsec{
     background-color: #F9F7F8;
-    width: 100%;
-    height: 707px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 150px;
 }
 
-.pf1{
+.read{
+    text-decoration: none;
     color: #007716;
-    font-size: 24px;
 }
 
-.pf2{
-    color: #0D093B;
-    font-size: 44px;
-    font-weight: 700;
+.display{
+    width: 100%;
+    height: auto;
+    background-color: #0D093B;
 }
 
-form p span {
-    color: #232323;
-    font-size: 18px;
+form input {
+    height: 58px;
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
 }
 
-form{
-    border-left: 2px solid #0D093B;
-    height: 570px;
-    padding-left: 24px;
+form button {
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
 }
 
-.firstinsec input, .inemail, .innumber, .inmess{
-    height: 59px;
-    width: 367px;
-    font-size: 18px;
-    color: #232323;
-    border-radius: 6px;
-    padding-left: 16px;
-    border: 1px solid #0D093B;
-    background-color: #FFFFFF;
-}
-
-.select2{
-   width: 78px;
-   height: 61px;
-    text-align: center;
-    background-color: #FFFFFF;
-    color: #232323;
-    font-size: 18px;
-    border-radius: 7px;
-    border: 1px solid #0D093B;
-    margin-right: 5px;
-}
-
-.innumber{
-    width: 277px;
-}
-
-.inmess{
-    width: 800px;
+textarea{
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
     height: 163px;
 }
 
-.checkbox{
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    border: 1px solid #0D093B;
-    border-color: #FFFFFF;
-}
-
-form button{
-    outline: none;
-    border: none;
+.butt{
     width: 132px;
-    height: 59px;
+    height: 49px;
+    outline: none;
+    border: none !important;
+    color: #fff !important;
     background: linear-gradient(to right, #007716, #FFFA00);
-    font-size: 24px;
-    font-weight: 400;
-    border-radius: 50px;
-    color: #FFFFFF;
-    cursor: pointer; 
-    margin-left: 350px;
 }
 
-form button:hover{
-    outline: none;
-    background: #FFFFFF;
-    width: 132px;
-    height: 59px;
-    cursor: pointer;
-    border: 2px solid  #007716; 
-    border-radius: 50px;
-    font-size: 24px;
-    color: #007716;
-}
-
-.firstinsec, .secondinsec{
-    display: flex;
-    gap: 50px;
-}
-
-.checkndbtn{
-    margin-top: 40px;
-}
-.span1{
-    margin-top: -10px;
-   
+.forrm{
+    border-right: 2px solid #0D093B;
     
- }
+  
+}
+
+footer{
+    background-color: #0D093B;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.ftimg img {
+    width: 100%;
+}
