@@ -126,3 +126,63 @@ footer a {
 .ftimg img {
     width: 100%;
 }
+
+@media screen and (max-width: 600px){
+    main{
+        height: 600px;
+    }
+
+    .bgimg{
+        height: 200px;
+    }
+    .htext{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img1{
+        display: none;
+    }
+
+    .htext h1{
+        font-size: 30px;
+    }
+    .htext p{
+        color: #F9F7F8;
+    }
+    br{
+        display: none;
+    }
+
+   .btn2{
+    width: 100% !important;
+   }
+
+   .reall{
+    margin-bottom: 150px;
+   }
+
+   .forrm{
+    border-right: none;
+   }
+}
+
+@media screen and (max-width: 900px){
+    .img1{
+        display: none;
+    }
+    .htext{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .htext p{
+        color: #F9F7F8;
+    }
+    br{
+        display: none;
+    }
+    .reall{
+        margin-bottom: 150px;
+    }
+}
