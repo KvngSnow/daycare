@@ -55,3 +55,106 @@ main {
     height: auto;
     
 }
+
+.state, .state1 {
+    height: 750px;
+}
+
+.txtp{
+    color: #007716;
+}
+
+.services{
+    height: auto;
+    width: 100%;
+    background-color: #F9F7F8;
+}
+
+.read{
+    text-decoration: none;
+    color: #007716;
+}
+
+footer{
+    background-color: #0D093B;
+    color: #fff;
+    margin-top: -10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.ftimg img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px){
+    .reall{
+    margin-bottom: 150px;
+   }
+
+   main{
+    height: 600px;
+    padding-top: 150px;
+   }
+
+   .imgmain{
+    display: none;
+   }
+
+   .maintext{
+    position: static;
+    text-align: center;
+    color: black;
+   }
+
+   .maintext h1{
+    font-size: 30px;
+    color: black;
+   }
+
+   .maintext p{
+    color: black !important;
+   }
+   br{
+    display: none;
+   }
+
+   .stateimg1 img {
+    width: 100%;
+   }
+
+   .stateimg{
+    position: static;
+    width: 100%;
+    margin-top: 400px;
+    padding: 0px;
+   }
+
+   .stateimg img, .stateimg2 img{
+    width: 100%;
+   }
+
+   .state1{
+    margin-top: 300px;
+    margin-bottom: 200px;
+   }
+
+   .statetext{
+    position: static;
+    margin-top: 300px;
+   }
+
+   .stateimg2 {
+    margin-top: -100px;
+    padding: 0px;
+   }
+   
+}
+
+@media screen and (max-width: 900px){
+     .reall{
+    margin-bottom: 150px;
+   }
+}
