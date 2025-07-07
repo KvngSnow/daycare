@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Itim&display=swap');
+
+*{
+    font-family: "Itim", sans-serif;
+}
+
+.btn1, .btn2 {
+    width: 162px;
+    height: 48px;
+}
+
+.btn1{
+    outline: none;
+    background: #fff;
+    color: #007716;
+    border: 2px solid #007716;
+}
+
+.btn2{
+    outline: none;
+    border: none !important;
+    color: #fff !important;
+    background: linear-gradient(to right, #007716, #FFFA00);
+}
+
+.aocmain{
+    background-image: url(./images/aoc\ main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.mainp1{
+    font-size: 60px;
+    line-height: normal;
+}
+
+.aoctxt{
+    padding-top: 150px;
+}
+
+.but1{
+    height: 98px;
+}
+
+.click {
+    border: 2px solid #0D093B;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 200px;
+}
+
+.ages{
+    margin-top: -10px;
+}
