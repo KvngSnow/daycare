@@ -110,8 +110,12 @@ textarea{
 
 .forrm{
     border-right: 2px solid #0D093B;
-    
-  
+}
+
+.forrrm {
+    background-color: #F9F7F8;
+    width: 100%;
+    height: auto;
 }
 
 footer{

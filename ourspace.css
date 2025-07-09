@@ -29,11 +29,11 @@ main {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
 }
 
-.mtext{
-    padding-top: 300px;
-}
 
 .mtxt{
     font-size: 60px;
@@ -67,3 +67,80 @@ main {
 .reall{
     margin-top: 150px;
 }
+
+.half {
+    background-image: url(./images/half.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+form input {
+    height: 58px;
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
+}
+
+form button {
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
+}
+
+textarea{
+    border: 1px solid #0D093B !important;
+    border-radius: 7px !important;
+    height: 163px;
+}
+
+.butt{
+    width: 132px;
+    height: 49px;
+    outline: none;
+    border: none !important;
+    color: #fff !important;
+    background: linear-gradient(to right, #007716, #FFFA00);
+}
+
+.forrrm {
+    background-color: #F9F7F8;
+    width: 100%;
+    height: auto;
+}
+
+.forrm{
+    border-right: 2px solid #0D093B;
+    display: grid;
+    place-items: center;
+    
+  
+}
+
+footer{
+    background-color: #0D093B;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.ftimg img {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px){
+    br {
+        display: none;
+    }
+
+    .first, .firstimg{
+        padding: 0px;
+    }
+
+    .cardd{
+        margin-bottom: 100px;
+    }
+}
+
+
