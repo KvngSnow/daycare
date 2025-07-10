@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Itim&display=swap');
+
+*{
+    font-family: "Itim", sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.btn1, .btn2 {
+    width: 162px;
+    height: 48px;
+}
+
+.btn1{
+    outline: none;
+    background: #fff;
+    color: #007716;
+    border: 2px solid #007716;
+}
+
+.btn2{
+    outline: none;
+    border: none !important;
+    color: #fff !important;
+    background: linear-gradient(to right, #007716, #FFFA00);
+}
+
+.bub{
+    border: 2px solid #007716;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px #b8b9bd66;
+}
+
+footer{
+    background-color: #0D093B;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.ftimg img {
+    width: 100%;
+}
