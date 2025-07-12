@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="area-of-care.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,9 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="find-a-job.css" />
-  </head>
-  <body>
+</head>
+<body>
     <!-- navigation bar section starts -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -71,7 +71,7 @@
               </ul>
             </li>
             <li class="nav-item me-5">
-              <a class="nav-link" href="./our-space.html">OurSpace</a>
+              <a class="nav-link" href="#">OurSpace</a>
             </li>
             <li class="nav-item dropdown me-5">
               <a
@@ -89,19 +89,14 @@
                   <a class="dropdown-item" href="./contact2.html">Contact</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./find-a-job.html">Find A Job</a>
+                  <a class="dropdown-item" href="./find-a-job.html"
+                    >Find A Job</a
+                  >
                 </li>
               </ul>
             </li>
             <form class="container-fluid justify-content-start">
-              <a href="./contact-us.html"
-                ><button
-                  class="btn btn-outline-success me-5 rounded-pill btn1"
-                  type="button"
-                >
-                  Contact Us
-                </button></a
-              >
+              <a href="./contact-us.html"><button class="btn btn-outline-success me-5 rounded-pill btn1" type="button">Contact Us</button></a>
               <button class="btn btn-outlin rounded-pill btn2" type="button">
                 Join Us
               </button>
@@ -112,102 +107,37 @@
     </nav>
     <!-- end of navigation bar section  -->
 
-    <!-- main background section starts  -->
+    <!-- background images and text section  -->
     <main
-      class="d-flex justify-content-center align-items-center"
-      style="min-height: 60vh"
+      class="d-flex align-items-center justify-content-start aocmain"
+      style="min-height: 70vh"
     >
-      <div class="w-100">
-        <h1 class="text-center display-2 fw-bold text-light">Live-In Nanny Job <br />Description</h1>
-        <div class="row mx-0 justify-content-center">
-          <div class="col-sm-12 col-md-12 col-lg-3 text-lg-end text-center fs-4 text-light">Find A Job</div>
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="input-group mb-3">
-              <button
-                class="btn btn-outline-secondary dropdown-toggle rounded-start-5 pe-lg-5 but"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Keywords
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-              </ul>
-              <input
-                type="text"
-                class="form-control rounded-end-5"
-                placeholder="Location"
-                aria-label="Text input with dropdown button"
-                style="max-width: 500px; margin: 0; height: 59px;"
-              />
-            </div>
-          </div>
-        </div>
-       <div class="text-center">
-         <button class="but2 px-5 py-3 rounded-5 fs-5">Join Now</button>
-       </div>
-      </div>
+      <section class="ps-lg-custom">
+        <p class="text-light display-3 fw-bold text-lg-start text-center">
+          Where Little Dreams <br />Begin and Families <br />Thrive
+        </p>
+        <p class="text-light fs-4 text-lg-start text-center">
+          Our professional team and flexible services, including <br />trusted
+          nanny support and free tax-funded childcare <br />for eligible
+          families, are here to make parenting less <br />stressful and more
+          rewarding.
+        </p>
+      </section>
     </main>
-    <!-- end of main background section  -->
+    <!-- end of background image and text section  -->
 
-
-    <!-- section below the background image starts  -->
-     <section class="icon" >
-      <div class="row mx-0 py-5">
-        <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-          <img src="./images/Icon 1.png" alt="">
-          <div class="text-center mt-4">
-            <p class="fw-bold fs-5" style="color: #0D093B;">Registration</p>
-          <p>Apply to register and <br>become a candidate</p>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-          <img src="./images/Icon 2.png" alt="">
-          <div class="text-center mt-4">
-            <p class="fw-bold fs-5" style="color: #0D093B;">Why Register</p>
-          <p>Apply to register and <br>become a candidate</p>
-          </div>
-        </div
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-          <img src="./images/Icon 3.png" alt="">
-          <div class="text-center mt-4">
-            <p class="fw-bold fs-5" style="color: #0D093B;">Recomended</p>
-          <p>Apply to register and <br>become a candidate</p>
-          </div>
-        </div
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3 text-center">
-          <img src="./images/Icon 4.png" alt="">
-          <div class="text-center mt-4">
-            <p class="fw-bold fs-5" style="color: #0D093B;">Registration</p>
-          <p>Apply to register and <br>become a candidate</p>
-          </div>
-        </div
-        </div>
-      </div>
-     </section>
-     <!-- end of said section  -->
-
-     <!-- activities section starts  -->
+    <!-- activities section starts  -->
       <section class="mt-5">
         <div class="row mx-0 px-lg-5">
           <!-- first column wuth green background  -->
           <div class="col-sm-12 col-md-12 col-lg-5">
             <div class="col1 px-lg-5 py-5">
               <!-- button 1 starts  -->
-               <div class="row butt1 w-100 mx-0 py-4">
+               <div class="row butt1 w-100 mx-0 py-4 bg-light">
                 <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
-                  <p class="my-0 fs-4 text-center text-lg-start">Short Time Nanny </p>
+                  <p class="my-0 fs-4 text-center text-lg-start">Free Tax-Funded Childcare (Ages 0-4)</p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5 mt-lg-3">
                   <img src="./images/Arrow-1.png" alt="">
                 </div>
                </div>
@@ -215,9 +145,9 @@
                <!-- button 2 -->
                 <div class="row butt1 w-100 mx-0 py-4 mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
-                  <p class="my-0 fs-4 text-center text-lg-start">Live-In Nanny Job Description</p>
+                  <p class="my-0 fs-4 text-center text-lg-start">Free Tax-Funded Childcare</p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5 mt-lg-3">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5">
                   <img src="./images/Arrow-1.png" alt="">
                 </div>
                </div>
@@ -225,7 +155,7 @@
                <!-- button 3  -->
                  <div class="row butt1 w-100 mx-0 py-4 mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
-                  <p class="my-0 fs-4 text-center text-lg-start">Part Time Nanny </p>
+                  <p class="my-0 fs-4 text-center text-lg-start">Nanny Services on Request</p>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5">
                   <img src="./images/Arrow-1.png" alt="">
@@ -235,9 +165,9 @@
                <!-- button 4  -->
                 <div class="row butt1 w-100 mx-0 py-4 mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
-                  <p class="my-0 fs-4 text-center text-lg-start">Part Time Nanny Housekeeper</p>
+                  <p class="my-0 fs-4 text-center text-lg-start">Helpful Articles and Advice</p>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5 mt-lg-3">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5">
                   <img src="./images/Arrow-1.png" alt="">
                 </div>
                </div>
@@ -245,9 +175,29 @@
                <!-- button 5  -->
                 <div class="row butt1 w-100 mx-0 py-4 mt-5">
                 <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
-                  <p class="my-0 fs-4 text-center text-lg-start">Childcare Services </p>
+                  <p class="my-0 fs-4 text-center text-lg-start">Childcare Services (Ages 0-16)</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5 mt-lg-3">
+                  <img src="./images/Arrow-1.png" alt="">
+                </div>
+               </div>
+
+               <!-- button 6 -->
+                <div class="row butt1 w-100 mx-0 py-4 mt-5">
+                <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
+                  <p class="my-0 fs-4 text-center text-lg-start">Daycare Services (Ages 0-5)</p>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5">
+                  <img src="./images/Arrow-1.png" alt="">
+                </div>
+               </div>
+
+                <!-- button 7 -->
+                <div class="row butt1 w-100 mx-0 py-4 mt-5">
+                <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5">
+                  <p class="my-0 fs-4 text-center text-lg-start">Care and Support (School-Aged Children (5-16 Years)</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-5 text-lg-end text-center pe-lg-5 mt-lg-3">
                   <img src="./images/Arrow-1.png" alt="">
                 </div>
                </div>
@@ -258,90 +208,91 @@
            
           <!-- end of firts column  -->
           <div class="col-sm-12 col-md-12 col-lg-7 mt-lg-0 mt-5 col2">
-            <img class="w-100" src="./images/2nd col.png" alt="">
-            <p class="display-5 fw-semibold mt-4" style="color: #0D093B;">Live-In Nanny Job Description</p>
-            <p class="fs-4">Being a Live-in Nanny has many perks and can be one of the most rewarding roles in childcare with bonds being made that last a lifetime. If you want to become a Live-in Nanny, here are the answers to some commonly asked questions:</p>
-            <p class="fs-3 mt-4" style="color: #0D093B;">Live-In Nanny Duties, Responsibilities & Skills What are the duties and responsibilities of a live-in nanny?</p>
-            <p class="fs-4">The responsibilities of a live-in nanny include anything related to the children. This could be</p>
-            <ul>
-              <li class="fs-4">doing the children’s laundry and ironing</li>
-              <li class="fs-4">changing the children’s bed linen</li>
-              <li class="fs-4">cooking for the children</li>
-              <li class="fs-4">organising clothes/toys</li>
-              <li class="fs-4">shopping relating to the children</li>
-              <li class="fs-4">school runs</li>
-              <li class="fs-4">arranging activities inside and outside the home</li>
-              <li class="fs-4">and anything else related to childcare</li>
-            </ul>
-            <p class="fs-3 mt-5" style="color: #0D093B;">What skills should a nanny have?</p>
-            <p class="fs-4">You should have experience of working with children, either as a nanny or in other childcare settings, as well as good organisational skills and the ability to cook.</p>
-            <p class="fs-3 mt-5" style="color: #0D093B;">Do nannies need qualifications?</p>
-            <p class="fs-4">Formal childcare qualifications are not needed though some clients do insist on this as part of their criteria. Some nannies do have childcare qualifications such as Cache, however some just have a good level of childcare experience, along with a paediatric first aid certificate and a valid DBS. Good references are also required.</p>
-            <p class="fs-4 fw-bold mt-4">Do nannies do housework?</p>
-            <p class="fs-4">Live-in nannies do anything relating to the children. In addition, you should be prepared to help with things such as running errands, family shopping etc., and ensuring you are flexible.</p>
-            <p class="fw-bold fs-4 mt-4">Do nannies get breaks?</p>
-            <p class="fs-4">What your day as a live-in nanny looks like will largely depend on the ages of the children you are working with. If there are older children who are at school and/or nursery then there may be time during the day for a break. However, if the role has younger children then it may be more difficult - in this case we encourage nannies to take a break when the children are napping.</p>
-            <p class="fs-4 fw-bold mt-4">How many families can a nanny work for?</p>
-            <p class="fs-4">As many as you want and your time allows for.</p>
-            <p class="fs-4 fw-bold mt-4">Can a nanny work from her own home?</p>
-            <p class="fs-4">No</p>
-            <p class="fs-3 mt-5" style="color: #0D093B;">Live-In Nanny Career</p>
-            <p class="fs-4 fw-bold">Is being a live-in nanny a career</p>
-            <p class="fs-4">Definitely, nannies are sought after especially if you have a strong CV with no gaps and good references. Some people work as nannies for many, many years and become well-known in the industry.</p>
-            <p class="fs-4 fw-bold mt-4">How can I become a qualified nanny?</p>
-            <p class="fs-4">You can do a two-year childcare qualification, such as a CACHE level 3. Any other shorter courses are always useful too. There are many colleges around London and outside of London that offer Cache courses.</p>
-            <p class="fs-4 fw-bold mt-4">Can I be self-employed as a nanny?</p>
-            <p class="fs-4">Not unless you only work in temporary nanny roles</p>
-            <p class="fs-4 fw-bold mt-4">Do nannies have to be registered?</p>
-            <p class="fs-4">Not necessarily although you can join the OFSTED Voluntary Nanny register. Some employers ask for this so it’s a good idea and will give you a better chance of getting a job.</p>
-            <p class="fw-bold fs-4">What are the pro & cons of being a live-in nanny?</p>
-            <p class="fs-4">Pros</p>
-            <ul>
-              <li class="fs-4">An excellent salary compared with other childcare roles, combined with not having to pay rent</li>
-              <li class="fs-4">Working with children in their own environment</li>
-              <li class="fs-4">1 to 1 focus with the children you look afte</li>
-              <li class="fs-4">Forming lifelong bonds and becoming part of a family</li>
-              <li class="fs-4">Having flexibility to plan your own day, do fun activities with the child and be more spontaneous</li>
-              <li class="fs-4">If you have had longevity with a family as a live In nanny this will strengthen your CV as it shows you are flexible and loyal, two very important characteristics of an exceptional live-in nanny</li>
-            </ul>
-            <p class="fs-4">Cons</p>
-            <ul>
-              <li class="fs-4">Longer hours (often for live-in nannies)</li>
-              <li class="fs-4">Sharing your space with a family</li>
-            </ul>
-            <p class="fs-3 mt-5" style="color: #0D093B;">Live-In Nanny Salary</p>
-            <p class="fs-4 fw-bold">How much does a live-in nanny earn?</p>
-            <p class="fs-4">A live-in nanny currently earns £26,500-£35,000 gross per year on average, based on a Monday to Friday role, working up to 60 hours per week. Find out more on the average nanny salaries page.</p>
-            <p class="fw-bold fs-4 mt-4">How are nannies paid?</p>
-            <p class="fs-4">Nannies are paid through a payroll company, such as NannyTax. Your salary is paid directly into your bank account, usually monthly.</p>
-            <p class="fs-4 fw-bold mt-4">Do nannies get paid vacation?</p>
-            <p class="fs-4">Yes. In most households you get 28 days paid holidays per year inclusive of bank holidays. This is for nannies working a five-day week, if you work less days then the holiday will be calculated pro-rata however it is down to your employer and what is on your contract – flexibility is always important to ensure you and the family are in agreement as to when is the most convenient time for you to take holidays</p>
-            <p class="fs-4 fw-bold mt-4">How many hours does a full-time live-in nanny work, compared to a full-time live-out nanny?</p>
-            <p class="fs-4">Live-out nannies usually work 45-55 hours per week, while live-in nannies usually work a 60-hour week, plus two evenings babysitting.</p>
-            <p class="fs-4 fw-bold mt-4">What is the usual accommodation provided for a live-in nanny?</p>
-            <p class="fs-4">Live-in nannies get their own bedroom and sometimes their own bathroom and in some households you will get separate accommodation.</p>
-            <p class="fs-4 fw-bold mt-4">Do live-in nannies pay rent?</p>
-            <p class="fs-4">No. <br>Nanny vs. Childminder</p>
-            <p class="fs-4 fw-bold mt-4">What is the difference between a nanny and a childminder?</p>
-            <p class="fs-4">A childminder cares for children in their own home whereas a Nanny works in the family’s home and is an integral part of the family. <br>Nanny vs. Au pair</p>
-            <p class="fs-4 fw-bold mt-4">What is the difference between a nanny and an au pair?</p>
-            <p class="fs-4">An au pair doesn’t necessarily have any previous childcare experience. Au pairs come to the UK to learn English/study so therefore can only work part-time and they rarely have childcare qualifications.</p>
-            <p class="fs-4">You can veiw our latest <a href="" class="text-dark">Nanny vacancies here</a></p>
+            <img class="w-100" src="./images/ght.png" alt="">
+            <p class="display-5 fw-semibold mt-4" style="color: #0D093B;">Free Tax-Funded Childcare for 2, 3, and 4-Year-Olds</p>
+            <p class="fs-4">Marvellous Kids Childcare offers tax-funded free childcare for eligible 2, 3, and 4-year-olds. This allows parents to take advantage of government support while ensuring their child receives high-quality care and early learning opportunities. Contact us to find out if you qualify and how to apply.</p>
+            <p class="fs-3 mt-4" style="color: #0D093B;">Welcome to Marvellous Kids Childcare</p>
+            <p class="fs-4">When your child joins Marvellous Kids Childcare, they enter a world of discovery, learning, and fun. Our experienced and caring staff create an inclusive, stimulating environment tailored to meet the individual needs of each child. Whether it’s engaging in creative play, exploring nature, or participating in early learning activities, we ensure every child feels happy, confident, and supported in their development.</p>
+            <p class="fs-4">We believe in fostering a strong sense of belonging. Through carefully designed routines, interactive activities, and positive reinforcement, we help children build friendships, develop essential skills, and grow in independence and confidence. At Marvellous, your child is treated like part of our extended family.</p>
+    
+            <p class="fs-3 mt-5" style="color: #0D093B;">Support for Parents: What to Expect from Our Team</p>
+            <p class="fs-4">We understand that parents need reliable and consistent support when it comes to childcare. At Marvellous Kids Childcare, our team goes above and beyond to provide you with peace of mind:</p>
+
+            <!-- section with check and text  -->
+            <!-- 1st check text  -->
+            <div class="row">
+              <div class="col-sm-2 col-md-2 col-lg-1 text-lg-end text-md-end">
+                <img src="./images/tabler_checks.png" alt="" class="mt-2">
+              </div>
+              <div class="col-sm-10 col-md-10 col-lg-11">
+                <p class="fs-5 fw-bold text-lg-start">Open Communication:</p>
+              </div>
+              <p class="fs-5">We maintain ongoing communication with parents to ensure you’re always informed about your child’s progress, milestones, and daily activities</p>
+            </div>
+             <!-- 2nd check text  -->
+            <div class="row">
+              <div class="col-sm-2 col-md-2 col-lg-1 text-lg-end text-md-end">
+                <img src="./images/tabler_checks.png" alt="" class="mt-2">
+              </div>
+              <div class="col-sm-10 col-md-10 col-lg-11">
+                <p class="fs-5 fw-bold text-lg-start">Tailored Flexibility: </p>
+              </div>
+              <p class="fs-5">Whether you require live-in, live-out, short-term, or long-term nanny services, our team will work with you to design a childcare plan that aligns with your specific needs.</p>
+            </div>
+             <!-- 3rd check text  -->
+            <div class="row">
+              <div class="col-sm-2 col-md-2 col-lg-1 text-lg-end text-md-end">
+                <img src="./images/tabler_checks.png" alt="" class="mt-2">
+              </div>
+              <div class="col-sm-10 col-md-10 col-lg-11">
+                <p class="fs-5 fw-bold text-lg-start">Expert Guidance: </p>
+              </div>
+              <p class="fs-5">Our experienced staff are always available to address your concerns, provide advice, and collaborate with you to support your child’s growth.</p>
+            </div>
+             <!-- 4th check text  -->
+            <div class="row">
+              <div class="col-sm-2 col-md-2 col-lg-1 text-lg-end text-md-end">
+                <img src="./images/tabler_checks.png" alt="" class="mt-2">
+              </div>
+              <div class="col-sm-10 col-md-10 col-lg-11">
+                <p class="fs-5 fw-bold text-lg-start">Family-Centric Approach:</p>
+              </div>
+              <p class="fs-5">We aim to build a genuine partnership with families, creating a supportive and understanding environment where parents feel involved and reassured.</p>
+            </div>
+
+            <p class="fs-3 mt-5" style="color: #0D093B;">Welcoming a New Child to Marvellous Kids Childcare</p>
+            <p class="fs-4">We understand that joining a new childcare environment can be both exciting and challenging for families. To ensure a smooth transition for your child, we have a dedicated onboarding process:</p>
+            <ol>
+              <li class="fs-4">
+                <b>Personalized Introduction:</b> Before your child joins, we arrange a meeting to understand their unique needs, preferences, and routines. This helps us create a tailored plan to support their adjustment.
+              </li>
+              <li class="fs-4">
+                <b>Gradual Transition:</b> For new children, we implement a phased settling-in process. This includes short initial sessions where they can explore the environment and get to know their caregivers at their own pace.
+              </li>
+              <li class="fs-4">
+                <b>Family Engagement:</b> We encourage parents to be part of the settling-in process. Whether it’s staying for the first few sessions or sharing special items that bring comfort to your child, we work collaboratively to make the experience stress-free
+              </li>
+              <li class="fs-4">
+                <b>Consistent Care:</b> Our team focuses on building trust and connection with each child, ensuring they feel safe, secure, and excited to be part of the Marvellous family.
+              </li>
+            </ol>
+            <p class="fs-4 mt-4">At Marvellous Kids Childcare, we are committed to making every new beginning a positive and joyful experience for both parents and children.</p>
+            <p class="fs-4 mt-4">Choose Marvellous Kids Childcare for professional, loving, and flexible support for your family. Together, we’ll create an incredible journey of growth, learning, and happiness for your child.</p>
+            <p class="fs-4 mt-5" style="color: #0D093B;">Information for new patient</p>
+          <p class="fs-4">Your email address will not be published. Required fields are marked</p>
           </div>
         </div>
       </section>
       <!-- end of activities section  -->
 
-      <!-- form section starts  -->
-        <section class="container-fluid mt-5 px-lg-5 py-5 forrrm">
+       <!-- form section starts  -->
+        <section class="container-fluid px-lg-5 py-5 forrrm">
           <form action="">
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-4 ps-lg-5 pt-5 forrm">
-                <img src="./images/Group 260.png" alt="">
-                <p class="fs-4 mt-4" style="color: #007716;">Contact Us</p>
-                <p class="fs-1 fw-bold" style="color: #0D093B;">You’ve Got Questions  <br>Feel Free to Ask</p>
+              <div class="col-sm-12 col-md-12 col-lg-5 ps-lg-5 pt-5 forrm">
+                
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-8 ps-lg-5 ">
+              <div class="col-sm-12 col-md-12 col-lg-7 ps-lg-5 ">
                 <!-- name section at the top  -->
                <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
@@ -412,11 +363,63 @@
         </section>
         <!-- end of form section  -->
 
-         <!-- footer section starts  -->
+        <!-- table section starts  -->
+         <section class="table py-5">
+          <div class="text-center pt-5">
+            <p class="fs-4 fw-bold" style="color: #007716;">Our Tuition</p>
+            <p class="display-5 fw-bold">Affordable, Flexible & <br>Transparent Tuition</p>
+          </div>
+
+          <div class="container-lg pt-5">
+            <!-- first row  -->
+            <div class="row first py-3">
+              <div class="col-sm-3 col-md-3 col-lg-6 cont"></div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fw-bold" style="color: #0D093B;">0 - 2 Year Olds</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fw-bold" style="color: #0D093B;">2 - 3 Year Olds</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fw-bold" style="color: #0D093B;">3 - 4 Year Olds</div>
+            </div>
+
+             <!-- second row-->
+            <div class="row first py-3">
+              <div class="col-sm-3 col-md-3 col-lg-6 cont fs-5" style="color: #0D093B;"><b>Full Weeks / 07:00AM - 06:00PM </b>(Monday to Friday)</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£316.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£316.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£316.00</div>
+            </div>
+
+               <!-- third row-->
+            <div class="row first py-3">
+              <div class="col-sm-3 col-md-3 col-lg-6 cont fs-5" style="color: #0D093B;"><b>Full Day / 07:00AM - 06:00PM</b></div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£93.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£93.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£93.00</div>
+            </div>
+
+              <!-- fourth row-->
+            <div class="row first py-3">
+              <div class="col-sm-3 col-md-3 col-lg-6 cont fs-5" style="color: #0D093B;"><b>Morning / 07:00AM - 01:00PM</b></div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+            </div>
+
+             <!-- fifth row-->
+            <div class="row first py-3">
+              <div class="col-sm-3 col-md-3 col-lg-6 cont fs-5" style="color: #0D093B;"><b>Afternoon / 07:00AM - 06:00PM</b></div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+              <div class="col-sm-3 col-md-3 col-lg-2 cont fs-5" style="color: #0D093B;">£59.00</div>
+            </div>
+          </div>
+         </section>       
+         <!-- end of table section  -->
+
+
+          <!-- footer section starts  -->
          <!-- Footer -->
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0D093B" fill-opacity="1" d="M0,96L48,106.7C96,117,192,139,288,122.7C384,107,480,53,576,58.7C672,64,768,128,864,144C960,160,1056,128,1152,122.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-<footer class="text-center text-lg-start text-muted">
+<footer class="text-center text-lg-start text-muted" style="margin-top: -5px;">
 
 
   <!-- Section: Links  -->
@@ -547,6 +550,7 @@
 <!-- Footer -->
          <!-- end of footer secton  -->
 
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
@@ -558,5 +562,5 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-  </body>
+</body>
 </html>
